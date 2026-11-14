@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/tokens-studio/figma-plugin/main/packages/tokens-studio-for-figma/schema/tokens.json",
+  "global": {
+    "colors": {
+      "brand": {
+        "primary": { "value": "#2c4a34", "type": "color" },
+        "primaryHover": { "value": "#203626", "type": "color" },
+        "accent": { "value": "#425d49", "type": "color" },
+        "ring": { "value": "#b9d4bd", "type": "color" }
+      },
+      "surface": {
+        "canvas": { "value": "#f4f7f4", "type": "color" },
+        "card": { "value": "#eaf1eb", "type": "color" },
+        "banner": { "value": "#e4ede5", "type": "color" },
+        "metric": { "value": "#e9f0ea", "type": "color" },
+        "white": { "value": "#ffffff", "type": "color" }
+      },
+      "border": {
+        "default": { "value": "#dce6dd", "type": "color" },
+        "card": { "value": "#d4e1d6", "type": "color" },
+        "light": { "value": "#edf3ed", "type": "color" }
+      },
+      "text": {
+        "heading": { "value": "#1a2b1f", "type": "color" },
+        "body": { "value": "#243329", "type": "color" },
+        "muted": { "value": "#5a6c5e", "type": "color" },
+        "subtle": { "value": "#637667", "type": "color" }
+      },
+      "status": {
+        "inRangeBg": { "value": "#c5d8c7", "type": "color" },
+        "inRangeText": { "value": "#243e2b", "type": "color" },
+        "belowRangeBg": { "value": "#ccd8cd", "type": "color" },
+        "belowRangeText": { "value": "#4f6453", "type": "color" },
+        "onlineNeon": { "value": "#22e75e", "type": "color" }
+      }
+    },
+    "borderRadius": {
+      "sm": { "value": "6px", "type": "borderRadius" },
+      "md": { "value": "10px", "type": "borderRadius" },
+      "lg": { "value": "12px", "type": "borderRadius" },
+      "xl": { "value": "16px", "type": "borderRadius" },
+      "2xl": { "value": "24px", "type": "borderRadius" },
+      "full": { "value": "9999px", "type": "borderRadius" }
+    },
+    "spacing": {
+      "xs": { "value": "4px", "type": "spacing" },
+      "sm": { "value": "8px", "type": "spacing" },
+      "md": { "value": "16px", "type": "spacing" },
+      "lg": { "value": "24px", "type": "spacing" },
+      "xl": { "value": "32px", "type": "spacing" }
+    },
+    "typography": {
+      "fontFamily": { "value": "Plus Jakarta Sans", "type": "fontFamilies" }
+    }
+  }
+}
